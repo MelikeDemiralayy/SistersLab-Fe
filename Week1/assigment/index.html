@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 2;
+let b = 3;
+let c = 2;
+console.log(a==b) ;// false
+console.log(a == c); // true
+
+console.log(typeof "John Doe"); // string
+console.log(typeof 3.14); // number
+console.log(typeof true); //boolean
+console.log(typeof 234567890123456789012345678901234567890n); // bigint
+console.log(typeof undefined); // undefined
+console.log(typeof null); // object
+console.log(typeof Symbol('symbol')); // symbol
+
+let x = 2;
+let y = "2";
+console.log(x == y); // true
+console.log(x === y); // false
+
+let x1 = 3;
+let y1= "3";
+console.log(x1+y1); // 33
+
+let x2 = 24;
+let y2 = "Hello";
+console.log(x2+y2); // 24Hello
+
+let name = "Vivek";
+let surname = " Bisht";
+console.log(name+surname); // Vivek Bisht
+
+let x3 = 3;
+let y3 = "3";
+console.log(x3-y3); //0
+
+let x4 = 0;
+let y4 = 23;
+
+if(x4) { console.log(x4) } //0
+
+if(y4) { console.log(y4) } //23
+
+console.log(isNaN("Hello")); //true
+console.log(isNaN(345)); //false
+console.log(isNaN('1')); //false
+console.log(isNaN(true)); //false
+console.log(isNaN(false)); //false
+console.log(isNaN(undefined)); //true
+
+    </script>
+</body>
+</html>
